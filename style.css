@@ -200,6 +200,25 @@ body {
   left:0px;
   position:relative;
   transition:2s;
+
+#grass {
+  display:none;
 }
 
+
+#James {
+display:none;
+
+}
+
+#GM {
+display:block;}
+
+#rich {
+  display:none;
+}
+
+#MN {
+  display:none;
+}
 
