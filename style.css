@@ -222,3 +222,6 @@ display:block;}
   display:none;
 }
 
+h3#myHiddenText {
+  display: none;
+}
