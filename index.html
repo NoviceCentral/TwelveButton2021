@@ -297,4 +297,64 @@ function myFunction() {
   </body>
 </html>
 
+<html>
 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<style>
+		button:hover {
+			background-color: yellow;
+			font-size: 100%;
+			transition: 1s;
+			transform: rotate(360deg);
+		}
+
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			animation-name: example;
+			animation-duration: 10s;
+
+		}
+
+
+
+		@keyframes example {
+			from {
+				background-color: red;
+			}
+			to {
+				background-color: green;
+			}
+		}
+	</style>
+
+</head>
+
+<body id="body">
+
+	<h1 id="title">
+		<center>Find the button that makes the background RED
+		</center>
+	</h1>
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMUlL1v-yifkNArc5HKYJxnXpEF13Pxi3Pgcc6dkyzs-SeYj6wGzHY8xZEJ1bQTpd0Ajk:https://i.redd.it/f1urcehib1831.png&usqp=CAU" style="display: none;" id="picture"/>
+  <div id="div1" style="display: none; width:80px;height:80px;background-color:red;"></div>
+    <button type="button" onclick="document.getElementById('title').style.display = 'none'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.display = 'block'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.color = 'red'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.fontSize = '100px'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.fontFamily = 'Arial'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.transform = 'rotate(1000deg)'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('picture').style.display = 'block'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('div1').style.display = 'block'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('div1').style.transform = 'skewY(200deg)'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.transform = 'skewY(4567deg)'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('title').style.color = 'blue'">Click Me!</button>
+    <button type="button" onclick="document.getElementById('body').style.display = 'none'">Click Me!</button>
+    <script src="script.js"></script>
+  </body>
+</html>
